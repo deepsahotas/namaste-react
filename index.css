@@ -1,3 +1,42 @@
 #heading{
     color: red;
 }
+.notification{
+    border: none;
+    padding:12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 17px;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 30px;
+}
+.success{
+    background: green;
+}
+.error{
+    background: red;
+}
+.info{
+    background: orange;
+}
+.notification button{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.bottom-right{
+    position: fixed;
+    bottom:50px;
+    right: 30px;
+}
+
+.top-left{
+    position: fixed;
+    top: 50px;
+    left: 30px;
+}
